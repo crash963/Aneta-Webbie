@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Alegreya Sans", sans-serif;
+}
+
+.main-logo-img {
+  width: 150px;
+}
+
+.section-1-top {
+  display: flex;
+  flex-direction: row;
+}
