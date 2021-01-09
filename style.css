@@ -305,7 +305,7 @@ p {
   border-radius: 50%;
 }
 .section-5-paragraph {
-  font-size: 18px;
+  font-size: 20px;
   margin-top: 4%;
   text-align: left;
 }
@@ -342,4 +342,30 @@ p {
   border-radius: 10px;
   text-decoration: none;
   box-shadow: 2px 7px 5px rgb(90, 90, 90);
+}
+
+.section-6 {
+  background-color: #232323;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-6 h2 {
+  font-size: 60px;
+  padding: 5% 0 5%;
+  color: white;
+}
+
+.section-6 img {
+  width: 200px;
+  height: 200px;
+}
+
+.section-6 div {
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  justify-content: space-evenly;
+  margin-bottom: 10%;
 }
