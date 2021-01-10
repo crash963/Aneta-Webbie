@@ -351,8 +351,9 @@ p {
   align-items: center;
 }
 
-.section-6 h2 {
-  font-size: 60px;
+.section-6 h2,
+.section-7 h2 {
+  font-size: 40px;
   padding: 5% 0 5%;
   color: white;
 }
@@ -368,4 +369,68 @@ p {
   width: 70%;
   justify-content: space-evenly;
   margin-bottom: 10%;
+}
+
+.section-7 {
+  background-color: #54be90;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.section-7 h2 {
+  font-size: 60px;
+  padding-bottom: 3%;
+}
+
+.input-box {
+  display: flex;
+  width: 60%;
+  flex: 1;
+  justify-content: space-evenly;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+input {
+  background-color: #54be90;
+  color: #ebebeb;
+  border: solid;
+  border-width: 0 0 1px 0;
+  font-size: 24px;
+  width: 20vw;
+  padding-bottom: 1%;
+  margin-top: 4%;
+}
+
+.message-box {
+  margin-top: 2%;
+  display: flex;
+  flex-direction: column;
+  width: 47%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.message-box p {
+  color: #d3d1d1;
+  font-size: 28px;
+  text-align: left;
+  margin-bottom: 2%;
+}
+
+.message-box textarea {
+  height: 25vh;
+  border: none;
+}
+
+.message-box a {
+  margin-top: 2%;
+  margin-bottom: 20%;
+  font-size: 28px;
+  font-weight: 800;
+  color: white;
+  text-decoration: white;
+  background-color: #232323;
+  padding: 1% 0;
 }
