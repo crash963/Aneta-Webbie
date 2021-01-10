@@ -392,7 +392,7 @@ p {
   margin-left: auto;
 }
 
-input {
+.input-box input {
   background-color: #54be90;
   color: #ebebeb;
   border: solid;
@@ -433,4 +433,34 @@ input {
   text-decoration: white;
   background-color: #232323;
   padding: 1% 0;
+}
+
+.section-8-heading-box {
+  font-size: 38px;
+  display: flex;
+  flex: 1;
+  justify-content: space-evenly;
+  margin-top: 8%;
+  margin-bottom: 5%;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-8-heading-box div {
+  border-style: solid;
+  border-width: 0 0 10px 0;
+  border-color: #54be90;
+  width: 300px;
+}
+
+.section-8-heading-box h2 {
+  margin-bottom: -2.5%;
+  font-weight: 800;
+}
+
+.section-8-img-box {
+  display: flex;
+  flex: 1;
+  justify-content: space-evenly;
 }
